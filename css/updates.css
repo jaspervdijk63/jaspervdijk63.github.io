@@ -65,6 +65,9 @@ div.container{
     padding-top: 15px;
     background-color: #181C43;
     margin: auto;
+
+    height: 50vh;
+    overflow-y: scroll;
 }
 .changelog .text{
     padding-left: 20px;
@@ -74,6 +77,8 @@ div.container{
 /*Footer*/
 footer.page-footer{
     background-color: #181C43;
+    position: absolute;
+    bottom: 0;
     width: 100%;
 }
 /*Smaller-devices*/
